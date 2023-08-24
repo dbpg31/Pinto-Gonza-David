@@ -9,5 +9,5 @@ def cuenta_atras(numero):
         print(numero)
         cuenta_atras(numero)
 
-cuenta_atras(10)
+print(cuenta_atras(10))
 
