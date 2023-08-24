@@ -9,4 +9,4 @@ Pvarones = varones / total * 100
 Pmujeres = mujeres / total * 100
 
 print( f"% varones = {format ( Pvarones ,'.2f') }%")
-print( f"% mujeres = {format (Pmujeres,'.2f') }%" ) 
+print( f"% mujeres = {format (Pmujeres,'.2f') }%" )
