@@ -8,6 +8,7 @@ def cuenta_atras(numero):
     if numero > 0 :
         print(numero)
         cuenta_atras(numero)
+    
 
-print(cuenta_atras(10))
+cuenta_atras(10)
 

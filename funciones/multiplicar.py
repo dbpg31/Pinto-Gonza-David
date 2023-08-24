@@ -1,10 +1,12 @@
 import os
 os.system("cls")
 
-def multiplicar(num1,num2):
-   while num2 > 0:
-    producto += num1
-    num2 -=1
+def multiplicar(multiplicando,multiplicador):
+    if(multiplicador==1) : return multiplicando
+    return multiplicando + multiplicar(multiplicando,(multiplicador - 1))
+
+print(multiplicar(9,9)) 
+
 
 
 
