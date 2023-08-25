@@ -5,6 +5,8 @@ bhorasAusencia = float (input("horas Ausencia : ")) <= 1.5
 bTDefectuosos = int(input("Tornillos Defectuosos : ")) < 300
 bTBuenos = int(input("Tornillos Buenos : ")) > 10000
 
+grado = 0
+
 if not bhorasAusencia and not bTDefectuosos and not bTBuenos : grado = 5
 elif bhorasAusencia and not bTDefectuosos and not bTBuenos : grado = 7
 elif not bhorasAusencia and bTDefectuosos and not bTBuenos : grado = 8
@@ -14,3 +16,4 @@ elif bhorasAusencia and not bTDefectuosos and bTBuenos : grado = 13
 elif not bhorasAusencia and bTDefectuosos and bTBuenos : grado = 15
 elif bhorasAusencia and bTDefectuosos and bTBuenos : grado = 20
 
+print(f"Grado :{grado}")

@@ -1,13 +1,12 @@
+import operator
+import os
+os.system("cls")
 
+Pamela = int(input("Pamela : "))
+Karol = int(input("Karol : "))
+Fany = int(input("Fany : "))
 
-
-
-
-
-
-
-
-
+mitad = (Pamela + Karol + Fany) // 2
 
 mensaje = ""
 if Pamela > mitad : mensaje = "Ganó Pamela"
