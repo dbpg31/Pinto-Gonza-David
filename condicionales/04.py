@@ -1,4 +1,4 @@
-impor os
+import os
 os.system("cls")
 
 nota1 = int( input("practica 1 : "))
