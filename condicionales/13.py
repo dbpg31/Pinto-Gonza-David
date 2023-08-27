@@ -1,7 +1,7 @@
 import os
 os.system("cls")
 
-numero = int(input("nuemro : "))
+numero = int(input("nuemro de 3 cifras : "))
 
 unidad = numero % 10
 decena = int((numero % 100)/10)
