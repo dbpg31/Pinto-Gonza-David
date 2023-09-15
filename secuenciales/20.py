@@ -44,3 +44,46 @@ for N in lista:
         nbilletes=dinero // N
     print(f"cantidad de ('billete' if dinero >= 10 else 'moneda')= {N:.2f}")
     dinero = dinero % N"""
+
+
+
+
+
+public class DescomposicionDinero {
+    public static void main(String[] args) {
+        double cantidadDinero = 567.50; // Ingresar la cantidad de dinero en soles
+
+        int billetes200 = (int) (cantidadDinero / 200);
+        cantidadDinero %= 200;
+
+        int billetes100 = (int) (cantidadDinero / 100);
+        cantidadDinero %= 100;
+
+        int billetes50 = (int) (cantidadDinero / 50);
+        cantidadDinero %= 50;
+
+        int billetes20 = (int) (cantidadDinero / 20);
+        cantidadDinero %= 20;
+
+        int billetes10 = (int) (cantidadDinero / 10);
+        cantidadDinero %= 10;
+
+        int monedas5 = (int) (cantidadDinero / 5);
+        cantidadDinero %= 5;
+
+        int monedas2 = (int) (cantidadDinero / 2);
+        cantidadDinero %= 2;
+
+        int monedas1 = (int) (cantidadDinero / 1);
+        cantidadDinero %= 1;
+
+        System.out.println("Billetes de 200 soles: " + billetes200);
+        System.out.println("Billetes de 100 soles: " + billetes100);
+        System.out.println("Billetes de 50 soles: " + billetes50);
+        System.out.println("Billetes de 20 soles: " + billetes20);
+        System.out.println("Billetes de 10 soles: " + billetes10);
+        System.out.println("Monedas de 5 soles: " + monedas5);
+        System.out.println("Monedas de 2 soles: " + monedas2);
+        System.out.println("Monedas de 1 sol: " + monedas1);
+    }
+}

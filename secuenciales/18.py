@@ -8,7 +8,7 @@ venta = unidades * precioBase
  
 venta1 = venta * (1 - 0.15)
 ventafinal = venta1 * (1 - 0.15)
-
+    
 descuento1 = venta * 0.15 
 descuent2 = venta1 * 0.15
 descuentototal = descuento1 + descuent2

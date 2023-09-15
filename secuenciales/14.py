@@ -19,6 +19,3 @@ elif numero5 > numero4 and numero5 > numero3 and numero5 > numero2 and numero5 >
     num5 =print(numero5)
     
 # calculo de numero mayor
-
-
-

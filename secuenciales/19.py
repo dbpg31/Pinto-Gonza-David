@@ -9,4 +9,4 @@ sueldoNeto = sueldoBruto  * (1 - 0.11)
 
 print(f"sueldo Bruto = S/ {sueldoBruto:.2f}")
 print(f"descuento = S/ {(sueldoBruto * 0.11):.2f}")
-print(f"sueldo Bruto = S/ {sueldoNeto:.2f}")
+print(f"sueldo Neto = S/ {sueldoNeto:.2f}")
